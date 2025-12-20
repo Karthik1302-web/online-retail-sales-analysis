@@ -1,0 +1,21 @@
+# --- Large Data Files ---
+# Ignore the raw retail dataset (replace with your actual filename)
+online_retail_II.csv
+# Ignore any output files generated from analysis
+Retail_Analysis_Output.csv
+*.zip
+*.xlsx
+
+# --- Power BI Temporary Files ---
+# Ignore temporary backup and lock files created by Power BI
+*.tmp
+*.pbit
+*.pbix.pbit
+*.pbix.lock
+
+# --- Python/System Files ---
+# Ignore Python cache and virtual environments
+__pycache__/
+venv/
+.env
+.DS_Store
