@@ -1,28 +1,41 @@
 # Online Retail Sales Analysis
 
-A comprehensive data analysis project examining online retail sales patterns using Python and Power BI.
+A data analytics project focused on analyzing online retail sales data to uncover customer behavior, product performance, and seasonal sales trends using Python and Power BI.
 
 ## Project Overview
 
-This project analyzes online retail sales data to uncover insights about customer behavior, product performance, and sales trends.
+**This project analyzes historical online retail transaction data to identify:**
+
+  - Revenue and sales trends
+  - Country-wise performance
+  - Product returns and refunds
+  - Seasonal demand patterns
+*The final outcome is an interactive Power BI dashboard designed to support business decision-making*.
 
 
 ## Technologies Used
 
-- **Python 3.x**
+- **Python 3.x  (used for data cleaning and exploratory analysis)**
   - pandas
   - numpy
-  - matplotlib/seaborn (if used)
-- **Power BI Desktop** - Interactive dashboard visualization
-- **Git & GitHub** - Version control
+  
+- **Power BI Desktop** 
+  - Data modeling
+  - DAX measures
+  - Interactive dashboards
+
+- **Git & GitHub** - Version control and project sharing
 
 ## Dashboard Features
 
 The Power BI dashboard includes:
-- Sales performance metrics
-- Customer segmentation analysis
-- Time-series trends
-- Geographic distribution 
+- Key KPIs: Total Revenue, Quantity Sold, Customers, Refunds
+- Country-wise revenue and order analysis
+- Monthly sales trend analysis
+- Top-performing products
+- Returns and refund insights
+- Interactive slicers for Month and Country
+
 
 
 ## 🚀 Getting Started
@@ -38,7 +51,7 @@ numpy
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/online-retail-sales-analysis.git
+git clone https://github.com/Karthik1302-web/online-retail-sales-analysis.git
 cd online-retail-sales-analysis
 ```
 
@@ -47,29 +60,57 @@ cd online-retail-sales-analysis
 pip install pandas numpy
 ```
 
-3. Run the analysis
-```bash
-python Retail_Sales_Analysis.py
-```
+**Python was primarily used for data preprocessing and exploration.**
+**Main insights are visualized using Power BI.**
 
-### Viewing the Power BI Dashboard
-
-1. Download [Power BI Desktop](https://powerbi.microsoft.com/desktop/)
-2. Open `powerbi/dashboard_screenshots/Retail sales.pbix`
-3. Explore the interactive visualizations
 
 ## Key Insights
 
-## Key Business Insights
+## Key Business Insights and Recommendations
 
-1. United Kingdom contributes the highest number of transactions and revenue, indicating a strong core market.
-2. Negative quantity and sales values indicate product returns and refunds, which require operational attention.
-3. Sales show a strong upward trend in November and December, suggesting seasonal demand driven by festivals and promotions.
-4. Quantity and total sales show moderate correlation, indicating price variations impact revenue more than volume alone.
+1. Market Concentration
 
-## Recommendations
+Insight:
+  - The United Kingdom contributes the highest number of transactions and revenue, indicating strong  dependency on a single market.
 
-- Increase marketing and inventory focus in high-performing regions like the UK.
-- Investigate causes of high refunds to reduce revenue leakage.
-- Plan inventory and promotions ahead of Q4 seasonal peaks.
+Recommendation:
 
+  - Continue strong focus on the UK market
+
+  - Analyze low-performing countries to identify growth opportunities and reduce market dependency
+
+2. Product Returns & Refunds
+
+Insight:
+Negative quantity and revenue values indicate significant product returns and refunds.
+
+Recommendation:
+
+  - Investigate product quality, pricing, and logistics for high-return products
+
+  - Reduce refund-related revenue loss through operational improvements.
+
+3. Seasonal Sales Trends
+
+Insight:
+Sales peak during November and December, showing strong seasonal demand driven by promotions and festivals.
+
+Recommendation:
+
+  - Plan inventory and marketing campaigns ahead of Q4 to maximize revenue.
+
+4. Pricing vs Volume
+
+Insight:
+Quantity sold and total revenue show moderate correlation, indicating pricing impacts revenue more than volume alone.
+
+Recommendation:
+
+  - Optimize pricing strategies for high-volume products
+## For Dataset Source
+**Online Retail II Dataset (UCI / Kaggle)**
+Link : https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci
+
+## Dashboard Preview
+
+Dashboard screenshots are available in the repository.
