@@ -110,7 +110,19 @@ Quantity sold and total revenue show moderate correlation, indicating pricing im
 
 Recommendation:
 
-  - Optimize pricing strategies for high-volume products
+  - Optimize pricing strategies for high-volume products.
+
+5. Revenue Refund and Revenue Refund
+
+Insight:
+UK contributes ~90% of revenue but has the highest refund rate (13.46%), indicating concentration risk.
+
+Recommendation:
+
+  - Prioritize refund reduction initiatives in the UK market
+
+  - Focus on Quality of product to reduce the return rate.
+
 
 ## Dataset Source
 **Online Retail II Dataset (UCI / Kaggle)**
